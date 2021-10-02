@@ -23,7 +23,7 @@ public class SKTVp20Task4IrinaSiskova {
             
 // выводим массив по 10 чисел в ряд 
         System.out.print(" "); 
-        System.out.print(arr[i] + "  ");
+        System.out.printf( "%4d", arr[i]);
         if (i % 10 == 9) {
             System.out.println("");  
             }
